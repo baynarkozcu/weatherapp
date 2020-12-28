@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
-      title: 'Flutter Demo',
+      title: 'WeatherApp',
       theme: ThemeData.light().copyWith(primaryColor: Colors.orange.shade700),
       home: MyHomePage(),
     );
